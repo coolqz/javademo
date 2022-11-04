@@ -49,9 +49,6 @@
 	    <plugin>
 	      <artifactId>maven-war-plugin</artifactId>
 	      <configuration>
-		    <source>11.0</source>
-		  	<target>11.0</target>
-			<encoding>UTF-8</encoding>
 	        <!--如果想在没有web.xml文件的情况下构建WAR，请设置为false。-->      
 	        <failOnMissingWebXml>false</failOnMissingWebXml>                        
 	      </configuration>
