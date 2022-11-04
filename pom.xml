@@ -49,6 +49,7 @@
 	    <plugin>
 	      <artifactId>maven-war-plugin</artifactId>
 	      <configuration>
+		  	<target>11.0</target>
 	        <!--如果想在没有web.xml文件的情况下构建WAR，请设置为false。-->      
 	        <failOnMissingWebXml>false</failOnMissingWebXml>                        
 	      </configuration>
