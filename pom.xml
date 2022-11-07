@@ -45,7 +45,6 @@
 	</dependencies> 
 	
 	<build>
-	<defaultGoal>compile</defaultGoal>
 	  <plugins>
 	    <plugin>
 	      <artifactId>maven-war-plugin</artifactId>
